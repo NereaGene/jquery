@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Mi titulo</title>
+		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/eventos.js"></script>
+	</head>
+	<body>
+		<h1>Ejecución de código JQuery</h1>
+		<button id="b1">Púlsame!</button>
+		<div>
+            <form id="login" action="formularios.php" method="post">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="username" id="username" value="usuario" required
+                        placeholder="Nombre de usuario"
+                        />
+                    </div>
+                    <div>
+                        <label for="contra"></label>
+                        <input type="password" name="contra" id="contra" value="" required
+                        placeholder="Contraseña chunga"
+                        autofocus
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                        />
+                    </div>
+                    <input type="submit" name="submit" value="Enviar" id="submit5"/>
+                </form>
+            </div>
+	</body>
+</html>
