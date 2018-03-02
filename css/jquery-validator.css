@@ -1,0 +1,9 @@
+input.valid, textarea.valid{
+    border: 3px green solid;
+}
+input.error,textarea.error{
+    border:3px red solid;
+}
+label.error{
+    
+}
